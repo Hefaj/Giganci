@@ -15,17 +15,17 @@
 	   * Tablica z liczbami 1,2,..., 49 
 		    wymieszaæ i wy¶wietliæ pierwsze 6
 	   * int tablica = new int[49];
-	   * optymalne rozwiazanie
+	   * optymalne rozwi±zanie
    
       3) [ ] Liczba Eulera
-	 - Napiszaæ program liczb±cy przybli¿enie liczby Eulera
+	 - Napisaæ program licz±cy przybli¿enie liczby Eulera
 	 - Problem:
 	   * Co to jest liczba Eulera, jak j± liczyæ?
 	 - Podpowiedz:
 	   * e = sum(1/n!) czyli 1/0! + 1/1! + 1/2! + ...
-	   * zrobic z silni funkcje
+	   * zrobiæ z silni funkcje
 	     - static int silnia(n){`[liczenie]`  return s}
-	 - Rozwiazanie:
+	 - Rozwi±zanie:
 	   * for(i=0;i<n;i++)
 	       s+=1f/silnia(n)
 
@@ -41,12 +41,12 @@
 	 - Podaj±c liczbê, ma zostaæ ona wy¶wietlona w postaci sumy liczb.
 	   1234 = 1000 + 200 + 30 + 4
 	 - Problem:
-	   * Jak przechwyciæ pojedyñcze cyfry?
+	   * Jak przechwyciæ pojedyncze cyfry?
 	 - Podpowiedz:
 	   * string to tablica charów 
 	     string liczba = "1234";
 	     liczba[0] => "1";
-	   * stringki mozna sklejaæ za pomoc± znaku "+"
+	   * stringi mo¿na sklejaæ za pomoc± znaku "+"
 	     "ala" + "ma" + "kota" => "alamakota"
 
       6) [ ] Pochodna w punkcie
@@ -85,7 +85,7 @@
 	   * dzielniki liczby 6 to 1, 2 i 3 czyli 1+2+3 = 6, 
              liczba 6 jest liczb± doskona³± (28, 496 tez)
 	   * ka¿da liczba dzieli siê przez 1
-	   * znajdz wszystkie dzielniki podanej liczby i zapisuj je do tablicy
+	   * znajd¼ wszystkie dzielniki podanej liczby i zapisuj je do tablicy
 
       10) [ ] Z³ota liczba
 	  - Podaj warto¶æ z³otej liczby.
@@ -98,7 +98,7 @@
                3+5  
 
       11) [ ] Miejsce zerowe funkcji
-	  - Maj±c funkcje f(x) chcemy znale¼æ miesce zerowe z przebia³u <a,b>
+	  - Maj±c funkcje f(x) chcemy znale¼æ miejsce zerowe z przedzia³u <a,b>
 	  - Problem:
 	    * Jak?
 	  - Podpowiedz:
@@ -114,12 +114,12 @@
 	      Sprawdziæ ca³kowanie dla f(x)=2x xe0..1
 
       13) [ ] Perceptron
-	  - Stworzyæ perceptron 2 wejscia 1 wyjscie.
+	  - Stworzyæ perceptron 2 wej¶cia 1 wyj¶cie.
 	  - Problem:
 	    * Co to jest perceptron (neuron matematyczny).
 	  - Podpowiedz:
 	    * Algebra liniowa
-	      x <- wektor wejsciowy
+	      x <- wektor wej¶ciowy
 	      w <- wektor wag
 	      Q <- Funkcja progowa unipolarna 
                    czyli 0 dla <0 i 1 dla >=0
@@ -134,7 +134,7 @@
 
       14) [ ] Uczenie perceptronu
 	  - Stworzyæ algorytm uczenia perceptrony
-		 Czyli modyfikacji wag (w) aby zwraca³o co chemy
+		 Czyli modyfikacji wag (w) aby zwraca³o co chcemy
 	  - Problem:
 	    * W jaki sposób modyfikowaæ wagi?
 	  - Podpowiedz:
@@ -155,7 +155,7 @@
 	   Marzec   (3)  - Maj      (5)  - Wiosna
 	   Czerwiec (6)  - Sierpieñ (8)  - Lato
 	   Wrzesieñ (9)  - Listopad (11) - Jesieñ
-	 - Pordowiedz:
+	 - Podpowiedz:
 	   * switch (n)
 	     case 3:
 	     case 4:
@@ -176,7 +176,7 @@
 	 - Problem:
 	   * Jaka funkcja jest wykonywana po najechaniu na element?
 	   * Jak wylosowaæ liczbê z odpowiedniego przedzia³u?
-	   * Jak zmieniæ z pozycji kodu kodu pozycjê textboxa?
+	   * Jak zmieniæ z pozycji kodu pozycjê textboxa?
 	 - Podpowiedz:
 	   * Piorunek nad w³a¶ciwo¶ciami.
 	   * Random r = new Random();
@@ -184,16 +184,16 @@
 	   * box.location = new Point(x,y);
 	  
       4) [X] Dynamiczna zmiana koloru checkbox-a
-	 - Wpisuj±c w textbox-a ma siê zmieniaæ kolor t³a.
+	 - Wpisuj±c w textbox-a ma siê znieniaæ kolor t³a.
 	 - Problem:
-	   * Jak zmienaæ kolor t³a?
+	   * Jak zmieniaæ kolor t³a?
 	 - Podpowiedz:
 	   * this.BackColor = Color.FromArgb(r,g,b);
 
       5) [ ] Oczopl±s
 	 - Migaj±cy form na losowe kolory
 	 - Problem:
-	   * W jaki sposób komputer "rozumie" kolory, jak siê je przedstaiwa, [[https://pl.wikipedia.org/wiki/RGB][RGB]], [[https://pl.wikipedia.org/wiki/CMYK][CMYK]] i inne?
+	   * W jaki sposób komputer "rozumie" kolory, jak siê je przedstawia, [[https://pl.wikipedia.org/wiki/RGB][RGB]], [[https://pl.wikipedia.org/wiki/CMYK][CMYK]] i inne?
 	   * Jak losowaæ liczby?
 	   * Jak zmieniaæ kolor t³a form-a?
 	   * Jak wykonywaæ fragment kodu w zapêtleniu co okre¶lony czas?
@@ -207,7 +207,7 @@
 	 - Label z napisem "obowi±zki" który idzie w twoja stronê
 	 - Problem:
 	   * Jak wykryæ pozycjê kursora?
-	   * Jak wykonywaæ kod w pêtki co okre¶lony czas?
+	   * Jak wykonywaæ kod w pêtli co okre¶lony czas?
 	 - Podpowiedz:
 	   * this.PointToClient(Cursor.Position).X
              this.PointToClient(Cursor.Position).Y
