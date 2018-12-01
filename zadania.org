@@ -148,8 +148,19 @@
 	      Je¿eli nie to modyfikujemy wagi
 	      w1 += (y'-y)*
 	    
-   2. [-] WinForms [3/7]
-      1) [ ] Pora roku
+   2. [-] WinForms [3/8]
+      1) [ ] Napis 
+	 - Program który pozwala wybraæ z listy wielko¶æ napisu.
+	   I zmienia rozmiar napisu na jaki wybrali¶my.
+	 - Problem:
+	   * Jak zmieniaæ rozmiar napisu?
+	   * Jak zrobiæ rozwijaln± liste?
+	 - Podpowiedz:
+	   * label.Font = new Font("Arial", 20); 20 <- rozmiar 
+           * ToolBox - > ComboBox
+	   * ComboBox -> events -> SelectedIndexChanged
+	     
+      2) [ ] Pora roku
 	 - Podajemy numer miesi±ca a program mówi jak to pora roku.
 	   Grudzieñ (12) - Luty     (2)  - Zima
 	   Marzec   (3)  - Maj      (5)  - Wiosna
@@ -163,14 +174,14 @@
 	         Console.Write...
 		 break;
 
-      2) [X] Liczba parzysta
+      3) [X] Liczba parzysta
 	 - Program sprawdzaj±cy czy wpisana liczba jest liczb± parzystk±.
 	 - Problem:
 	   * Kiedy liczba jest parzysta?
 	 - Podpowiedz:
 	   * Liczba jest parzysta je¿eli reszta z dzielenia przez 2 jest równa 0.
 
-      3) [X] Uciekaj±cy textbox
+      4) [X] Uciekaj±cy textbox
 	 - Po najechaniu mysz± textbox ucieka w inne 
            losowe miejsce w naszym oknie.
 	 - Problem:
@@ -183,14 +194,14 @@
 	     r.Next(a,b);
 	   * box.location = new Point(x,y);
 	  
-      4) [X] Dynamiczna zmiana koloru checkbox-a
+      5) [X] Dynamiczna zmiana koloru checkbox-a
 	 - Wpisuj±c w textbox-a ma siê znieniaæ kolor t³a.
 	 - Problem:
 	   * Jak zmieniaæ kolor t³a?
 	 - Podpowiedz:
 	   * this.BackColor = Color.FromArgb(r,g,b);
 
-      5) [ ] Oczopl±s
+      6) [ ] Oczopl±s
 	 - Migaj±cy form na losowe kolory
 	 - Problem:
 	   * W jaki sposób komputer "rozumie" kolory, jak siê je przedstawia, [[https://pl.wikipedia.org/wiki/RGB][RGB]], [[https://pl.wikipedia.org/wiki/CMYK][CMYK]] i inne?
@@ -203,7 +214,7 @@
 	      gdzie r,g,b to liczby z przedzia³u od 0-255
 	   * Timer - element z toolboxa
 	     
-      6) [ ] No we¼ id¼ sobie
+      7) [ ] No we¼ id¼ sobie
 	 - Label z napisem "obowi±zki" który idzie w twoja stronê
 	 - Problem:
 	   * Jak wykryæ pozycjê kursora?
@@ -213,7 +224,7 @@
              this.PointToClient(Cursor.Position).Y
 	   * ToolBox -> Timer
 
-      7) [ ] Szyfr Cezara
+      8) [ ] Szyfr Cezara
 	 - Podajemy wiadomo¶æ, liczbê przesuniêæ oraz 
            lewo/prawo a zwraca nam zaszyfrowan± wiadomo¶æ. 
 	 - Problem:
