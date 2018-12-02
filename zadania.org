@@ -24,7 +24,7 @@
 	 - Podpowiedz:
 	   * e = sum(1/n!) czyli 1/0! + 1/1! + 1/2! + ...
 	   * zrobiæ z silni funkcje
-	     - static int silnia(n){`[liczenie]`  return s}
+	   * static int silnia(n){`[liczenie]`  return s}
 	 - Rozwi±zanie:
 	   * for(i=0;i<n;i++)
 	       s+=1f/silnia(n)
@@ -65,9 +65,9 @@
 	   * BRAK
 	 - Podpowiedz:
 	   * np. n = 3
-	     * 
-	     **
-	     ***
+	     * .
+	     * ..
+	     * ...
 
       8) [ ] Sortowanie tablicy liczb ca³kowitych
 	 - Posortowanie rosn±co tablice liczb ca³kowitych.
@@ -236,7 +236,10 @@
 	   * przyda sie reszta z dzielenia (mod) %
 	     
    3. [ ] HARD MODE [0/2]
-      1) [ ] [[https://github.com/Hefaj/portfolio/tree/master/Python/simulation][Ro¶lino¿ercy i miêso¿ercy]] 
+      1) [ ] [[http://www.victorygames.pl/screeny/gry/duze/5178.jpg][Arkanoid]]
+	 * Stworzyæ grê na podobê Arkanoid
+	 
+      2) [ ] [[https://github.com/Hefaj/portfolio/tree/master/Python/simulation][Ro¶lino¿ercy i miêso¿ercy]] 
 	 - Niech x i y bêd± liczebno¶ciami ro¶lino¿erców i poluj±cych 
            na nie drapie¿ników na jakim¶ zamkniêtym obszarze. 
            Prêdko¶ci zmian obu populacji dane s± równaniami 
@@ -259,14 +262,11 @@
            w pierwszych 10 latach oddzia³ywania populacji. 
            W chwili pocz±tkowej liczebno¶ci gatunków wynosz± 
            x0 = 60, y0 = 20. 
-	 
-      2) [ ] [[http://www.victorygames.pl/screeny/gry/duze/5178.jpg][Arkanoid]]
-	 * Stworzyæ grê na podobê Arkanoid
 
    4. [ ] Przemy¶lenia
       - c      - system operacyjny, mikrokontrolery
       - c++    - silnik gry, mikrokontrolery, UNREAL ENGINE
-      - c#     - $_$, UNITY
+      - c#     - $$$, UNITY
       - java   - aplikacje mobline, podobnie zastosowanie co w c#
       - Python - obliczenia fizyczne, matematyczne, AI
       - R      - statystyka
