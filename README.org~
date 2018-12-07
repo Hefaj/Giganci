@@ -1,13 +1,13 @@
 * TODO Zadanka[0/4]
-   1. [-] Konsola [3/14]
+   1. [-] Konsola [2/14]
       1) [X] Silnia
 	 - Obliczyæ silnie z liczny n.
 	 - Problem:
 	   * Jak siê liczy silnie?
 	 - Podpowiedz:
 	   * !n = 1 * 2 * .. * n
-	     
-      2) [X] Lotto
+
+      2) [ ] Lotto
 	 - Generowanie 6-ciu liczb z zakresu 1-49 bez powtórzeñ.
 	 - Problem:
 	   * Jak losowaæ bez powtórzeñ?
@@ -148,7 +148,7 @@
 	      Je¿eli nie to modyfikujemy wagi
 	      w1 += (y'-y)*
 	    
-   2. [-] WinForms [7/8]
+   2. [-] WinForms [6/8]
       1) [X] Napis 
 	 - Program który pozwala wybraæ z listy wielko¶æ napisu.
 	   I zmienia rozmiar napisu na jaki wybrali¶my.
@@ -214,7 +214,7 @@
 	      gdzie r,g,b to liczby z przedzia³u od 0-255
 	   * Timer - element z toolboxa
 	     
-      7) [X] No we¼ id¼ sobie
+      7) [ ] No we¼ id¼ sobie
 	 - Label z napisem "obowi±zki" który idzie w twoja stronê
 	 - Problem:
 	   * Jak wykryæ pozycjê kursora?
