@@ -1,74 +1,74 @@
 
 # Table of Contents
 
-1.  [Zadanka<code>[0/4]</code>](#org740a994)
+1.  [Zadanka<code>[1/4]</code>](#org69caf6a)
 
 
-<a id="org740a994"></a>
+<a id="org69caf6a"></a>
 
-# TODO Zadanka<code>[0/4]</code>
+# TODO Zadanka<code>[1/4]</code>
 
-1.  [-] Konsola <code>[2/14]</code>
+1.  [-] Konsola <code>[3/14]</code>
     1.  [X] Silnia
-        -   Obliczyæ silnie z liczny n.
+        -   ObliczyÄ‡ silnie z liczny n.
         -   Problem:
-            -   Jak siê liczy silnie?
+            -   Jak siÄ™ liczy silnie?
         -   Podpowiedz:
             -   !n = 1 \* 2 \* .. \* n
     
-    2.  [ ] Lotto
-        -   Generowanie 6-ciu liczb z zakresu 1-49 bez powtórzeñ.
+    2.  [X] Lotto
+        -   Generowanie 6-ciu liczb z zakresu 1-49 bez powtÃ³rzeÅ„.
         -   Problem:
-            -   Jak losowaæ bez powtórzeñ?
+            -   Jak losowaÄ‡ bez powtÃ³rzeÅ„?
         -   Podpowiedz:
             -   Tablica z liczbami 1,2,&#x2026;, 49 
-                wymieszaæ i wy¶wietliæ pierwsze 6
+                wymieszaÄ‡ i wyÅ›wietliÄ‡ pierwsze 6
             -   int tablica = new int[49];
-            -   optymalne rozwi±zanie
+            -   optymalne rozwiÄ…zanie
     
     3.  [ ] Liczba Eulera
-        -   Napisaæ program licz±cy przybli¿enie liczby Eulera
+        -   NapisaÄ‡ program liczÄ…cy przybliÅ¼enie liczby Eulera
         -   Problem:
-            -   Co to jest liczba Eulera, jak j± liczyæ?
+            -   Co to jest liczba Eulera, jak jÄ… liczyÄ‡?
         -   Podpowiedz:
             -   e = sum(1/n!) czyli 1/0! + 1/1! + 1/2! + &#x2026;
-            -   zrobiæ z silni funkcje
+            -   zrobiÄ‡ z silni funkcje
             -   static int silnia(n){\`[liczenie]\`  return s}
-        -   Rozwi±zanie:
+        -   RozwiÄ…zanie:
             -   for(i=0;i<n;i++)
                 s+=1f/silnia(n)
     
     4.  [ ] Liczby pierwsze
-        -   Wy¶wietliæ wszystkie liczby pierwsze z przedzia³u od 2 do n.
+        -   WyÅ›wietliÄ‡ wszystkie liczby pierwsze z przedziaÅ‚u od 2 do n.
         -   Problem:
             -   Co to jest liczba pierwsza?
-            -   Jak sprawdziæ czy liczba jest pierwsza?
+            -   Jak sprawdziÄ‡ czy liczba jest pierwsza?
         -   Podpowiedz:
-            -   Znaj±c liczbê pierwsz± mo¿na wykluczyæ jej wielokrotno¶ci.
+            -   ZnajÄ…c liczbÄ™ pierwszÄ… moÅ¼na wykluczyÄ‡ jej wielokrotnoÅ›ci.
     
     5.  [ ] Rozpisanie liczby
-        -   Podaj±c liczbê, ma zostaæ ona wy¶wietlona w postaci sumy liczb.
+        -   PodajÄ…c liczbÄ™, ma zostaÄ‡ ona wyÅ›wietlona w postaci sumy liczb.
             1234 = 1000 + 200 + 30 + 4
         -   Problem:
-            -   Jak przechwyciæ pojedyncze cyfry?
+            -   Jak przechwyciÄ‡ pojedyncze cyfry?
         -   Podpowiedz:
-            -   string to tablica charów 
+            -   string to tablica charÃ³w 
                 string liczba = "1234";
                 liczba[0] => "1";
-            -   stringi mo¿na sklejaæ za pomoc± znaku "+"
+            -   stringi moÅ¼na sklejaÄ‡ za pomocÄ… znaku "+"
                 "ala" + "ma" + "kota" => "alamakota"
     
     6.  [ ] Pochodna w punkcie
-        -   Maj±c funkcje f(x) podaæ warto¶æ pochodnej tej funkcji
+        -   MajÄ…c funkcje f(x) podaÄ‡ wartoÅ›Ä‡ pochodnej tej funkcji
             w wyznaczonym punkcie.
         -   Problem:
             -   Co to jest pochodna?
-            -   Jak zakodowaæ wzór pochodnej?
+            -   Jak zakodowaÄ‡ wzÃ³r pochodnej?
         -   Podpowiedz:
-            -   Wyprowadzenie wzoru na pochodn± ze wzoru Taylora
+            -   Wyprowadzenie wzoru na pochodnÄ… ze wzoru Taylora
     
-    7.  [X] Wy¶wietlanie choinki
-        -   Za pomoc± pêtli wy¶wietliæ trójk±t prostok±tny z '\*' 
+    7.  [X] WyÅ›wietlanie choinki
+        -   Za pomocÄ… pÄ™tli wyÅ›wietliÄ‡ trÃ³jkÄ…t prostokÄ…tny z '\*' 
             dla danego n.
         -   Problem:
             -   BRAK
@@ -78,28 +78,28 @@
                 -   ..
                 -   &#x2026;
     
-    8.  [ ] Sortowanie tablicy liczb ca³kowitych
-        -   Posortowanie rosn±co tablice liczb ca³kowitych.
+    8.  [ ] Sortowanie tablicy liczb caÅ‚kowitych
+        -   Posortowanie rosnÄ…co tablice liczb caÅ‚kowitych.
         -   Problem:
-            -   Jak wydajnie pouk³adaæ cyfry na swoich miejscach
+            -   Jak wydajnie poukÅ‚adaÄ‡ cyfry na swoich miejscach
         -   Podpowiedz:
             -   Array.Sort(array);
     
-    9.  [ ] Liczba doskona³a
-        -   Sprawdziæ czy podana liczba jest liczb± doskona³±.
+    9.  [ ] Liczba doskonaÅ‚a
+        -   SprawdziÄ‡ czy podana liczba jest liczbÄ… doskonaÅ‚Ä….
         -   Problem:
-            -   Co to jest liczba doskona³a?
-            -   Jak sprawdziæ czy podana liczba jest liczb± doskona³±?
+            -   Co to jest liczba doskonaÅ‚a?
+            -   Jak sprawdziÄ‡ czy podana liczba jest liczbÄ… doskonaÅ‚Ä…?
         -   Podpowiedz:
             -   dzielniki liczby 6 to 1, 2 i 3 czyli 1+2+3 = 6, 
-                liczba 6 jest liczb± doskona³± (28, 496 tez)
-            -   ka¿da liczba dzieli siê przez 1
-            -   znajd¼ wszystkie dzielniki podanej liczby i zapisuj je do tablicy
+                liczba 6 jest liczbÄ… doskonaÅ‚Ä… (28, 496 tez)
+            -   kaÅ¼da liczba dzieli siÄ™ przez 1
+            -   znajdÅº wszystkie dzielniki podanej liczby i zapisuj je do tablicy
     
-    10. [ ] Z³ota liczba
-        -   Podaj warto¶æ z³otej liczby.
+    10. [ ] ZÅ‚ota liczba
+        -   Podaj wartoÅ›Ä‡ zÅ‚otej liczby.
         -   Problem:
-            -   Co to jest z³ota liczba?
+            -   Co to jest zÅ‚ota liczba?
         -   Podpowiedz:
                1+1
               1+2
@@ -107,28 +107,28 @@
             3+5
     
     11. [ ] Miejsce zerowe funkcji
-        -   Maj±c funkcje f(x) chcemy znale¼æ miejsce zerowe z przedzia³u <a,b>
+        -   MajÄ…c funkcje f(x) chcemy znaleÅºÄ‡ miejsce zerowe z przedziaÅ‚u <a,b>
         -   Problem:
             -   Jak?
         -   Podpowiedz:
             -   Metoda bisekcji
     
-    12. [ ] Ca³ka Riemanna (oznaczona)
-        -   Maj±c f(x) policzyæ ca³kê Riemanna na przedziale <a,b>.
+    12. [ ] CaÅ‚ka Riemanna (oznaczona)
+        -   MajÄ…c f(x) policzyÄ‡ caÅ‚kÄ™ Riemanna na przedziale <a,b>.
         -   Problem:
-            -   Na czym polega ca³kowanie?
+            -   Na czym polega caÅ‚kowanie?
         -   Podpowiedz:
-            -   Metoda Trapezów
+            -   Metoda TrapezÃ³w
                 Pole trapezu => (a+b)\*h/2
-                Sprawdziæ ca³kowanie dla f(x)=2x xe0..1
+                SprawdziÄ‡ caÅ‚kowanie dla f(x)=2x xe0..1
     
     13. [ ] Perceptron
-        -   Stworzyæ perceptron 2 wej¶cia 1 wyj¶cie.
+        -   StworzyÄ‡ perceptron 2 wejÅ›cia 1 wyjÅ›cie.
         -   Problem:
             -   Co to jest perceptron (neuron matematyczny).
         -   Podpowiedz:
             -   Algebra liniowa
-                x <- wektor wej¶ciowy
+                x <- wektor wejÅ›ciowy
                 w <- wektor wag
                 Q <- Funkcja progowa unipolarna 
                      czyli 0 dla <0 i 1 dla >=0
@@ -139,140 +139,153 @@
                     x2       w2
                 
                 y = Q( T(x)\*w )
-                w <- losowe z przedzia³u (0,1)
+                w <- losowe z przedziaÅ‚u (0,1)
     
     14. [ ] Uczenie perceptronu
-        -   Stworzyæ algorytm uczenia perceptrony
-            Czyli modyfikacji wag (w) aby zwraca³o co chcemy
+        -   StworzyÄ‡ algorytm uczenia perceptrony
+            Czyli modyfikacji wag (w) aby zwracaÅ‚o co chcemy
         -   Problem:
-            -   W jaki sposób modyfikowaæ wagi?
+            -   W jaki sposÃ³b modyfikowaÄ‡ wagi?
         -   Podpowiedz:
-            -   Maj±c wynik (y) dla wektora ucz±cego x, x={x1,x2}
-                i oczekuj±c od perceptronu wyj¶cia y' dla wektora x.
+            -   MajÄ…c wynik (y) dla wektora uczÄ…cego x, x={x1,x2}
+                i oczekujÄ…c od perceptronu wyjÅ›cia y' dla wektora x.
                 
-                Mo¿emy sprawdziæ czy y'-y = 0
-                je¿eli tak to znaczy, ¿e perceptron
-                zwraca poprawne warto¶ci.
+                MoÅ¼emy sprawdziÄ‡ czy y'-y = 0
+                jeÅ¼eli tak to znaczy, Å¼e perceptron
+                zwraca poprawne wartoÅ›ci.
                 
-                Je¿eli nie to modyfikujemy wagi
+                JeÅ¼eli nie to modyfikujemy wagi
                 w1 += (y'-y)\*
 
-2.  [-] WinForms <code>[3/8]</code>
-    1.  [ ] Napis 
-        -   Program który pozwala wybraæ z listy wielko¶æ napisu.
-            I zmienia rozmiar napisu na jaki wybrali¶my.
+2.  [-] WinForms <code>[7/9]</code>
+    1.  [X] Napis 
+        -   Program ktÃ³ry pozwala wybraÄ‡ z listy wielkoÅ›Ä‡ napisu.
+            I zmienia rozmiar napisu na jaki wybraliÅ›my.
         -   Problem:
-            -   Jak zmieniaæ rozmiar napisu?
-            -   Jak zrobiæ rozwijaln± liste?
+            -   Jak zmieniaÄ‡ rozmiar napisu?
+            -   Jak zrobiÄ‡ rozwijalnÄ… liste?
         -   Podpowiedz:
             -   label.Font = new Font("Arial", 20); 20 <- rozmiar
             -   ToolBox - > ComboBox
             -   ComboBox -> events -> SelectedIndexChanged
     
-    2.  [ ] Pora roku
-        -   Podajemy numer miesi±ca a program mówi jak to pora roku.
-            Grudzieñ (12) - Luty     (2)  - Zima
+    2.  [X] Pora roku
+        -   Podajemy numer miesiÄ…ca a program mÃ³wi jak to pora roku.
+            GrudzieÅ„ (12) - Luty     (2)  - Zima
             Marzec   (3)  - Maj      (5)  - Wiosna
-            Czerwiec (6)  - Sierpieñ (8)  - Lato
-            Wrzesieñ (9)  - Listopad (11) - Jesieñ
+            Czerwiec (6)  - SierpieÅ„ (8)  - Lato
+            WrzesieÅ„ (9)  - Listopad (11) - JesieÅ„
         -   Podpowiedz:
             -   switch (n)
                 case 3:
                 case 4:
                 case 5:
-                    Console.Write&#x2026;
+                    MessageBox.Show();
                     break;
     
     3.  [X] Liczba parzysta
-        -   Program sprawdzaj±cy czy wpisana liczba jest liczb± parzystk±.
+        -   Program sprawdzajÄ…cy czy wpisana liczba jest liczbÄ… parzystkÄ….
         -   Problem:
             -   Kiedy liczba jest parzysta?
         -   Podpowiedz:
-            -   Liczba jest parzysta je¿eli reszta z dzielenia przez 2 jest równa 0.
+            -   Liczba jest parzysta jeÅ¼eli reszta z dzielenia przez 2 jest rÃ³wna 0.
     
-    4.  [X] Uciekaj±cy textbox
-        -   Po najechaniu mysz± textbox ucieka w inne 
+    4.  [X] UciekajÄ…cy textbox
+        -   Po najechaniu myszÄ… textbox ucieka w inne 
             losowe miejsce w naszym oknie.
         -   Problem:
             -   Jaka funkcja jest wykonywana po najechaniu na element?
-            -   Jak wylosowaæ liczbê z odpowiedniego przedzia³u?
-            -   Jak zmieniæ z pozycji kodu pozycjê textboxa?
+            -   Jak wylosowaÄ‡ liczbÄ™ z odpowiedniego przedziaÅ‚u?
+            -   Jak zmieniÄ‡ z pozycji kodu pozycjÄ™ textboxa?
         -   Podpowiedz:
-            -   Piorunek nad w³a¶ciwo¶ciami.
+            -   Piorunek nad wÅ‚aÅ›ciwoÅ›ciami.
             -   Random r = new Random();
                 r.Next(a,b);
             -   box.location = new Point(x,y);
     
     5.  [X] Dynamiczna zmiana koloru checkbox-a
-        -   Wpisuj±c w textbox-a ma siê znieniaæ kolor t³a.
+        -   WpisujÄ…c w textbox-a ma siÄ™ znieniaÄ‡ kolor tÅ‚a.
         -   Problem:
-            -   Jak zmieniaæ kolor t³a?
+            -   Jak zmieniaÄ‡ kolor tÅ‚a?
         -   Podpowiedz:
             -   this.BackColor = Color.FromArgb(r,g,b);
     
-    6.  [ ] Oczopl±s
-        -   Migaj±cy form na losowe kolory
+    6.  [ ] OczoplÄ…s
+        -   MigajÄ…cy form na losowe kolory
         -   Problem:
-            -   W jaki sposób komputer "rozumie" kolory, jak siê je przedstawia, [RGB](https://pl.wikipedia.org/wiki/RGB), [CMYK](https://pl.wikipedia.org/wiki/CMYK) i inne?
-            -   Jak losowaæ liczby?
-            -   Jak zmieniaæ kolor t³a form-a?
-            -   Jak wykonywaæ fragment kodu w zapêtleniu co okre¶lony czas?
+            -   W jaki sposÃ³b komputer "rozumie" kolory, jak siÄ™ je przedstawia, [RGB](https://pl.wikipedia.org/wiki/RGB), [CMYK](https://pl.wikipedia.org/wiki/CMYK) i inne?
+            -   Jak losowaÄ‡ liczby?
+            -   Jak zmieniaÄ‡ kolor tÅ‚a form-a?
+            -   Jak wykonywaÄ‡ fragment kodu w zapÄ™tleniu co okreÅ›lony czas?
         -   Podpowiedz:
             -   Random r = new Random();
             -   this.BackColor = Color.FromArgb(r,g,b);
-                gdzie r,g,b to liczby z przedzia³u od 0-255
+                gdzie r,g,b to liczby z przedziaÅ‚u od 0-255
             -   Timer - element z toolboxa
     
-    7.  [ ] No we¼ id¼ sobie
-        -   Label z napisem "obowi±zki" który idzie w twoja stronê
+    7.  [X] No weÅº idÅº sobie
+        -   Label z napisem "obowiÄ…zki" ktÃ³ry idzie w twoja stronÄ™
         -   Problem:
-            -   Jak wykryæ pozycjê kursora?
-            -   Jak wykonywaæ kod w pêtli co okre¶lony czas?
+            -   Jak wykryÄ‡ pozycjÄ™ kursora?
+            -   Jak wykonywaÄ‡ kod w pÄ™tli co okreÅ›lony czas?
         -   Podpowiedz:
             -   this.PointToClient(Cursor.Position).X
                 this.PointToClient(Cursor.Position).Y
             -   ToolBox -> Timer
     
-    8.  [ ] Szyfr Cezara
-        -   Podajemy wiadomo¶æ, liczbê przesuniêæ oraz 
-            lewo/prawo a zwraca nam zaszyfrowan± wiadomo¶æ.
+    8.  [X] Szyfr Cezara
+        -   Podajemy wiadomoÅ›Ä‡, liczbÄ™ przesuniÄ™Ä‡ oraz 
+            lewo/prawo a zwraca nam zaszyfrowanÄ… wiadomoÅ›Ä‡.
         -   Problem:
-            -   Na jakiej zasadzie dzia³a szyfr Cezara?
+            -   Na jakiej zasadzie dziaÅ‚a szyfr Cezara?
         -   Podpowiedz:
-            -   Wszystko przesuniête o n liter w lewo/prawo
+            -   Wszystko przesuniÄ™te o n liter w lewo/prawo
             -   int a = (int)'a';
             -   char b = (char)98;
             -   przyda sie reszta z dzielenia (mod) %
-
-3.  [ ] HARD MODE <code>[0/2]</code>
-    1.  [ ] [Arkanoid](http://www.victorygames.pl/screeny/gry/duze/5178.jpg)
-        -   Stworzyæ grê na podobê Arkanoid
     
-    2.  [ ] [Ro¶lino¿ercy i miêso¿ercy](https://github.com/Hefaj/portfolio/tree/master/Python/simulation) 
-        -   Niech x i y bêd± liczebno¶ciami ro¶lino¿erców i poluj±cych 
-            na nie drapie¿ników na jakim¶ zamkniêtym obszarze. 
-            Prêdko¶ci zmian obu populacji dane s± równaniami 
+    9.  [ ] Uwaga skacze!
+        -   Zasymuluj ukÅ‚ad spadku swobodnego.
+            Zrob button, usuÅ„ z niego napis i po kliknieciu button ma zaczÄ…Ä‡ spacaÄ‡ spadkiem swodobnym.
+        -   Problem: 
+            -   Jak to jest Å¼e coÅ› spada?
+        -   Podpowiedz:
+            -   v[prektosc] = g[grawitacja]\*t[czas]
+            -   button odpala timer timer1.start();
+            -   v = g \* t/1000;
+
+3.  [ ] HARD MODE <code>[0/3]</code>
+    1.  [ ] RozwiÄ…zywanie ukÅ‚adu rÃ³wnaÅ„ za pomocÄ… eliminacji Gaussa
+        -   PosiadajÄ…c n niewiadomych oraz n rÃ³wnaÅ„ rozwiÄ…Å¼ ukÅ‚Ä…d rÃ³wnaÅ„.
+    
+    2.  [ ] [Arkanoid](http://www.victorygames.pl/screeny/gry/duze/5178.jpg)
+        -   StworzyÄ‡ grÄ™ na podobÄ™ Arkanoid
+    
+    3.  [ ] [RoÅ›linoÅ¼ercy i miÄ™soÅ¼ercy](https://github.com/Hefaj/portfolio/tree/master/Python/simulation) 
+        -   Niech x i y bÄ™dÄ… liczebnoÅ›ciami roÅ›linoÅ¼ercÃ³w i polujÄ…cych 
+            na nie drapieÅ¼nikÃ³w na jakimÅ› zamkniÄ™tym obszarze. 
+            PrÄ™dkoÅ›ci zmian obu populacji dane sÄ… rÃ³wnaniami 
             Lotki-Volterry:
             
             dx/dt = rx\*x
             dy/dt = ry\*y
             
-            gdzie rx to rozrodczo¶æ populacji ro¶lino¿erców dana 
+            gdzie rx to rozrodczoÅ›Ä‡ populacji roÅ›linoÅ¼ercÃ³w dana 
             wzorem rx = a - b\*x - c\*y,  na sukces rozrodczy ujemnie 
-            wp³ywa liczebno¶æ w³asnej populacji (konkurencja o kryjówki, 
-            miejsca rozrodu itp) jak i liczebno¶æ drapie¿ników. 
-            Z kolei rozrodczo¶æ drapie¿ników dana jest 
-            wzorem ry = -d +e\*x-f\*y - wp³ywa na ni± pozytywnie liczbno¶æ 
-            potencjalnych ofiar, a negatywnie zagêszczenie
-            w³asnej populacji.
+            wpÅ‚ywa liczebnoÅ›Ä‡ wÅ‚asnej populacji (konkurencja o kryjÃ³wki, 
+            miejsca rozrodu itp) jak i liczebnoÅ›Ä‡ drapieÅ¼nikÃ³w. 
+            Z kolei rozrodczoÅ›Ä‡ drapieÅ¼nikÃ³w dana jest 
+            wzorem ry = -d +e\*x-f\*y - wpÅ‚ywa na niÄ… pozytywnie liczbnoÅ›Ä‡ 
+            potencjalnych ofiar, a negatywnie zagÄ™szczenie
+            wÅ‚asnej populacji.
             
-            Zasymuluj dynamikê uk³adu dwóch gatunków dla 
+            Zasymuluj dynamikÄ™ ukÅ‚adu dwÃ³ch gatunkÃ³w dla 
             a=5, b=0.005, c=0.2, d=1, e=0.03, f=0.01 [1/rok] 
-            w pierwszych 10 latach oddzia³ywania populacji. 
-            W chwili pocz±tkowej liczebno¶ci gatunków wynosz± 
+            w pierwszych 10 latach oddziaÅ‚ywania populacji. 
+            W chwili poczÄ…tkowej liczebnoÅ›ci gatunkÃ³w wynoszÄ… 
             x0 = 60, y0 = 20.
 
-4.  [ ] Przemy¶lenia
+4.  [X] PrzemyÅ›lenia
     -   c      - system operacyjny, mikrokontrolery
     -   c++    - silnik gry, mikrokontrolery, UNREAL ENGINE
     -   c#     - $$$, UNITY
@@ -281,6 +294,6 @@
     -   R      - statystyka
     -   PHP    - webowe klient - serwer
     -   JS     - webowe klient, UNITY
-    -   Oczwi¶cie w JS czy w R te¿ mo¿na robic AI, chodzi mi o to
-        ¿e czêsciej u¿ywa siê w tym Python albo c++.
+    -   OczwiÅ›cie w JS czy w R teÅ¼ moÅ¼na robic AI, chodzi mi o to
+        Å¼e czÄ™sciej uÅ¼ywa siÄ™ w tym Python albo c++.
 
