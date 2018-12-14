@@ -1,22 +1,50 @@
 
 # Table of Contents
 
-1.  [Zadanka<code>[1/4]</code>](#org69caf6a)
+1.  [Zadanka<code>[1/4]</code>](#orgeeb092d)
 
 
-<a id="org69caf6a"></a>
+<a id="orgeeb092d"></a>
 
 # TODO Zadanka<code>[1/4]</code>
 
-1.  [-] Konsola <code>[3/14]</code>
-    1.  [X] Silnia
+1.  [-] Konsola <code>[3/17]</code>
+    1.  [ ] Tabliczka mnożenia
+        -   Wyświetlić tabliczke mnożenia za pomocą for, while oraz do While
+        -   Problem:
+            -   Po co tyle pętli?
+            -   Jak używać tych pętli?
+        -   Podpowiedz:
+            -   for(iterator; warunek; inkrementacja) {}
+            -   while (warunek) ()
+            -   do {} while (warunek);
+    
+    2.  [ ] Bip bip
+        -   Zrobić bip zapomocą pętli while
+        -   Problem?
+            -   To co ma byc Bip bip?!
+            -   Jak się robi bip?
+        -   Podpowiedz:
+            -   Console.Beep(czestotliwosc[Hz], czas[ms] );
+            -   czestotliwosc = <37-32767>, czas 100ms
+    
+    3.  [ ] Algorytm Euklidesa (NWD)
+        -   Policzyć najwiekszy wspólny dzielnik dwóch liczb
+        -   Problem:
+            -   Jak wygląda algorytm NWD?
+        -   Podpowiedz:
+            1.  oblicz c jako resztę z dzielenia a przez b
+            2.  zastąp a liczbą b, następnie b liczbą c
+            3.  jeżeli wartość b wynosi 0, to a jest szukaną wartością NWD, w przeciwnym wypadku przejdź do kroku 1
+    
+    4.  [X] Silnia
         -   Obliczyć silnie z liczny n.
         -   Problem:
             -   Jak się liczy silnie?
         -   Podpowiedz:
             -   !n = 1 \* 2 \* .. \* n
     
-    2.  [X] Lotto
+    5.  [X] Lotto
         -   Generowanie 6-ciu liczb z zakresu 1-49 bez powtórzeń.
         -   Problem:
             -   Jak losować bez powtórzeń?
@@ -26,7 +54,7 @@
             -   int tablica = new int[49];
             -   optymalne rozwiązanie
     
-    3.  [ ] Liczba Eulera
+    6.  [ ] Liczba Eulera
         -   Napisać program liczący przybliżenie liczby Eulera
         -   Problem:
             -   Co to jest liczba Eulera, jak ją liczyć?
@@ -38,7 +66,7 @@
             -   for(i=0;i<n;i++)
                 s+=1f/silnia(n)
     
-    4.  [ ] Liczby pierwsze
+    7.  [ ] Liczby pierwsze
         -   Wyświetlić wszystkie liczby pierwsze z przedziału od 2 do n.
         -   Problem:
             -   Co to jest liczba pierwsza?
@@ -46,7 +74,7 @@
         -   Podpowiedz:
             -   Znając liczbę pierwszą można wykluczyć jej wielokrotności.
     
-    5.  [ ] Rozpisanie liczby
+    8.  [ ] Rozpisanie liczby
         -   Podając liczbę, ma zostać ona wyświetlona w postaci sumy liczb.
             1234 = 1000 + 200 + 30 + 4
         -   Problem:
@@ -58,7 +86,7 @@
             -   stringi można sklejać za pomocą znaku "+"
                 "ala" + "ma" + "kota" => "alamakota"
     
-    6.  [ ] Pochodna w punkcie
+    9.  [ ] Pochodna w punkcie
         -   Mając funkcje f(x) podać wartość pochodnej tej funkcji
             w wyznaczonym punkcie.
         -   Problem:
@@ -67,7 +95,7 @@
         -   Podpowiedz:
             -   Wyprowadzenie wzoru na pochodną ze wzoru Taylora
     
-    7.  [X] Wyświetlanie choinki
+    10. [X] Wyświetlanie choinki
         -   Za pomocą pętli wyświetlić trójkąt prostokątny z '\*' 
             dla danego n.
         -   Problem:
@@ -78,14 +106,14 @@
                 -   ..
                 -   &#x2026;
     
-    8.  [ ] Sortowanie tablicy liczb całkowitych
+    11. [ ] Sortowanie tablicy liczb całkowitych
         -   Posortowanie rosnąco tablice liczb całkowitych.
         -   Problem:
             -   Jak wydajnie poukładać cyfry na swoich miejscach
         -   Podpowiedz:
             -   Array.Sort(array);
     
-    9.  [ ] Liczba doskonała
+    12. [ ] Liczba doskonała
         -   Sprawdzić czy podana liczba jest liczbą doskonałą.
         -   Problem:
             -   Co to jest liczba doskonała?
@@ -96,7 +124,7 @@
             -   każda liczba dzieli się przez 1
             -   znajdź wszystkie dzielniki podanej liczby i zapisuj je do tablicy
     
-    10. [ ] Złota liczba
+    13. [ ] Złota liczba
         -   Podaj wartość złotej liczby.
         -   Problem:
             -   Co to jest złota liczba?
@@ -106,14 +134,14 @@
              2+3
             3+5
     
-    11. [ ] Miejsce zerowe funkcji
+    14. [ ] Miejsce zerowe funkcji
         -   Mając funkcje f(x) chcemy znaleźć miejsce zerowe z przedziału <a,b>
         -   Problem:
             -   Jak?
         -   Podpowiedz:
             -   Metoda bisekcji
     
-    12. [ ] Całka Riemanna (oznaczona)
+    15. [ ] Całka Riemanna (oznaczona)
         -   Mając f(x) policzyć całkę Riemanna na przedziale <a,b>.
         -   Problem:
             -   Na czym polega całkowanie?
@@ -122,7 +150,7 @@
                 Pole trapezu => (a+b)\*h/2
                 Sprawdzić całkowanie dla f(x)=2x xe0..1
     
-    13. [ ] Perceptron
+    16. [ ] Perceptron
         -   Stworzyć perceptron 2 wejścia 1 wyjście.
         -   Problem:
             -   Co to jest perceptron (neuron matematyczny).
@@ -141,7 +169,7 @@
                 y = Q( T(x)\*w )
                 w <- losowe z przedziału (0,1)
     
-    14. [ ] Uczenie perceptronu
+    17. [ ] Uczenie perceptronu
         -   Stworzyć algorytm uczenia perceptrony
             Czyli modyfikacji wag (w) aby zwracało co chcemy
         -   Problem:
@@ -157,8 +185,17 @@
                 Jeżeli nie to modyfikujemy wagi
                 w1 += (y'-y)\*
 
-2.  [-] WinForms <code>[7/9]</code>
-    1.  [X] Napis 
+2.  [-] WinForms <code>[7/10]</code>
+    1.  [ ] Muzyczko graj!
+        -   Zrobić 5 guzików, każdy z nich wywołuje inny dzwięk.
+        -   Problem:
+            -   Jak wywołać dzwięk?
+        -   Podpowiedz:
+            -   Console.Beep(c,t);
+                c - czestotliwosc <37-32767>
+                t - czas [ms]
+    
+    2.  [X] Napis 
         -   Program który pozwala wybrać z listy wielkość napisu.
             I zmienia rozmiar napisu na jaki wybraliśmy.
         -   Problem:
@@ -169,7 +206,7 @@
             -   ToolBox - > ComboBox
             -   ComboBox -> events -> SelectedIndexChanged
     
-    2.  [X] Pora roku
+    3.  [X] Pora roku
         -   Podajemy numer miesiąca a program mówi jak to pora roku.
             Grudzień (12) - Luty     (2)  - Zima
             Marzec   (3)  - Maj      (5)  - Wiosna
@@ -183,14 +220,14 @@
                     MessageBox.Show();
                     break;
     
-    3.  [X] Liczba parzysta
+    4.  [X] Liczba parzysta
         -   Program sprawdzający czy wpisana liczba jest liczbą parzystką.
         -   Problem:
             -   Kiedy liczba jest parzysta?
         -   Podpowiedz:
             -   Liczba jest parzysta jeżeli reszta z dzielenia przez 2 jest równa 0.
     
-    4.  [X] Uciekający textbox
+    5.  [X] Uciekający textbox
         -   Po najechaniu myszą textbox ucieka w inne 
             losowe miejsce w naszym oknie.
         -   Problem:
@@ -203,14 +240,14 @@
                 r.Next(a,b);
             -   box.location = new Point(x,y);
     
-    5.  [X] Dynamiczna zmiana koloru checkbox-a
+    6.  [X] Dynamiczna zmiana koloru checkbox-a
         -   Wpisując w textbox-a ma się znieniać kolor tła.
         -   Problem:
             -   Jak zmieniać kolor tła?
         -   Podpowiedz:
             -   this.BackColor = Color.FromArgb(r,g,b);
     
-    6.  [ ] Oczopląs
+    7.  [ ] Oczopląs
         -   Migający form na losowe kolory
         -   Problem:
             -   W jaki sposób komputer "rozumie" kolory, jak się je przedstawia, [RGB](https://pl.wikipedia.org/wiki/RGB), [CMYK](https://pl.wikipedia.org/wiki/CMYK) i inne?
@@ -223,7 +260,7 @@
                 gdzie r,g,b to liczby z przedziału od 0-255
             -   Timer - element z toolboxa
     
-    7.  [X] No weź idź sobie
+    8.  [X] No weź idź sobie
         -   Label z napisem "obowiązki" który idzie w twoja stronę
         -   Problem:
             -   Jak wykryć pozycję kursora?
@@ -233,7 +270,7 @@
                 this.PointToClient(Cursor.Position).Y
             -   ToolBox -> Timer
     
-    8.  [X] Szyfr Cezara
+    9.  [X] Szyfr Cezara
         -   Podajemy wiadomość, liczbę przesunięć oraz 
             lewo/prawo a zwraca nam zaszyfrowaną wiadomość.
         -   Problem:
@@ -243,8 +280,9 @@
             -   int a = (int)'a';
             -   char b = (char)98;
             -   przyda sie reszta z dzielenia (mod) %
+            -   (char)((((int)litera-97)+n)%25)+97;
     
-    9.  [ ] Uwaga skacze!
+    10. [ ] Uwaga skacze!
         -   Zasymuluj układ spadku swobodnego.
             Zrob button, usuń z niego napis i po kliknieciu button ma zacząć spacać spadkiem swodobnym.
         -   Problem: 
