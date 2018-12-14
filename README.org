@@ -1,5 +1,5 @@
 * TODO Zadanka[1/4]
-   1. [-] Konsola [3/15]
+   1. [-] Konsola [3/17]
       1) [ ] Tabliczka mnożenia
 	 - Wyświetlić tabliczke mnożenia za pomocą for, while oraz do While
 	 - Problem:
@@ -8,16 +8,34 @@
 	 - Podpowiedz:
 	   * for(iterator; warunek; inkrementacja) {}
 	   * while (warunek) ()
-	   * do {} while (warunek);
+	   * do {} while (warunek);        
 
-      2) [X] Silnia
+      2) [ ] Ewo ewo
+	 - Zrobić ewooo zapomocą pętli while
+	 - Problem?
+	   * To co ma byc ewoo?!
+	   * Jak się robi ewoo?
+	 - Podpowiedz:
+	   * Console.Beep(czestotliwosc[Hz], czas[ms] );
+	   * czestotliwosc = <500-15000>                   
+
+      3) [ ] Algorytm Euklidesa (NWD)
+	 - Policzyć najwiekszy wspólny dzielnik dwóch liczb
+	 - Problem:
+	   * Jak wygląda algorytm NWD?
+	 - Podpowiedz:
+	   1. oblicz c jako resztę z dzielenia a przez b
+	   2. zastąp a liczbą b, następnie b liczbą c
+	   3. jeżeli wartość b wynosi 0, to a jest szukaną wartością NWD, w przeciwnym wypadku przejdź do kroku 1  
+
+      4) [X] Silnia
 	 - Obliczyć silnie z liczny n.
 	 - Problem:
 	   * Jak się liczy silnie?
 	 - Podpowiedz:
 	   * !n = 1 * 2 * .. * n
 
-      3) [X] Lotto
+      5) [X] Lotto
 	 - Generowanie 6-ciu liczb z zakresu 1-49 bez powtórzeń.
 	 - Problem:
 	   * Jak losować bez powtórzeń?
@@ -27,7 +45,7 @@
 	   * int tablica = new int[49];
 	   * optymalne rozwiązanie
    
-      4) [ ] Liczba Eulera
+      6) [ ] Liczba Eulera
 	 - Napisać program liczący przybliżenie liczby Eulera
 	 - Problem:
 	   * Co to jest liczba Eulera, jak ją liczyć?
@@ -39,7 +57,7 @@
 	   * for(i=0;i<n;i++)
 	       s+=1f/silnia(n)
 
-      5) [ ] Liczby pierwsze
+      7) [ ] Liczby pierwsze
 	 - Wyświetlić wszystkie liczby pierwsze z przedziału od 2 do n.
 	 - Problem:
 	   * Co to jest liczba pierwsza?
@@ -47,7 +65,7 @@
 	 - Podpowiedz:
 	   * Znając liczbę pierwszą można wykluczyć jej wielokrotności.
 
-      6) [ ] Rozpisanie liczby
+      8) [ ] Rozpisanie liczby
 	 - Podając liczbę, ma zostać ona wyświetlona w postaci sumy liczb.
 	   1234 = 1000 + 200 + 30 + 4
 	 - Problem:
@@ -59,7 +77,7 @@
 	   * stringi można sklejać za pomocą znaku "+"
 	     "ala" + "ma" + "kota" => "alamakota"
 
-      7) [ ] Pochodna w punkcie
+      9) [ ] Pochodna w punkcie
 	 - Mając funkcje f(x) podać wartość pochodnej tej funkcji
                      w wyznaczonym punkcie.
 	 - Problem:
@@ -68,25 +86,25 @@
 	 - Podpowiedz:
 	   * Wyprowadzenie wzoru na pochodną ze wzoru Taylora
 
-      8) [X] Wyświetlanie choinki
-	 - Za pomocą pętli wyświetlić trójkąt prostokątny z '*' 
-                     dla danego n.
-	 - Problem:
-	   * BRAK
-	 - Podpowiedz:
-	   * np. n = 3
-	     * .
-	     * ..
-	     * ...
+      10) [X] Wyświetlanie choinki
+	  - Za pomocą pętli wyświetlić trójkąt prostokątny z '*' 
+                      dla danego n.
+	  - Problem:
+	    * BRAK
+	  - Podpowiedz:
+	    * np. n = 3
+	      * .
+	      * ..
+	      * ...
 
-      9) [ ] Sortowanie tablicy liczb całkowitych
-	 - Posortowanie rosnąco tablice liczb całkowitych.
-	 - Problem:
-	   * Jak wydajnie poukładać cyfry na swoich miejscach
-	 - Podpowiedz:
-	   * Array.Sort(array);
+      11) [ ] Sortowanie tablicy liczb całkowitych
+	  - Posortowanie rosnąco tablice liczb całkowitych.
+	  - Problem:
+	    * Jak wydajnie poukładać cyfry na swoich miejscach
+	  - Podpowiedz:
+	    * Array.Sort(array);
 
-      10) [ ] Liczba doskonała
+      12) [ ] Liczba doskonała
 	  - Sprawdzić czy podana liczba jest liczbą doskonałą.
 	  - Problem:
 	    * Co to jest liczba doskonała?
@@ -97,7 +115,7 @@
 	    * każda liczba dzieli się przez 1
 	    * znajdź wszystkie dzielniki podanej liczby i zapisuj je do tablicy
 
-      11) [ ] Złota liczba
+      13) [ ] Złota liczba
 	  - Podaj wartość złotej liczby.
 	  - Problem:
 	    * Co to jest złota liczba?
@@ -107,14 +125,14 @@
 		2+3
                3+5  
 
-      12) [ ] Miejsce zerowe funkcji
+      14) [ ] Miejsce zerowe funkcji
 	  - Mając funkcje f(x) chcemy znaleźć miejsce zerowe z przedziału <a,b>
 	  - Problem:
 	    * Jak?
 	  - Podpowiedz:
 	    * Metoda bisekcji
 
-      13) [ ] Całka Riemanna (oznaczona)
+      15) [ ] Całka Riemanna (oznaczona)
 	  - Mając f(x) policzyć całkę Riemanna na przedziale <a,b>.
 	  - Problem:
 	    * Na czym polega całkowanie?
@@ -123,7 +141,7 @@
 	      Pole trapezu => (a+b)*h/2
 	      Sprawdzić całkowanie dla f(x)=2x xe0..1
 
-      14) [ ] Perceptron
+      16) [ ] Perceptron
 	  - Stworzyć perceptron 2 wejścia 1 wyjście.
 	  - Problem:
 	    * Co to jest perceptron (neuron matematyczny).
@@ -142,7 +160,7 @@
 		  y = Q( T(x)*w )
 		  w <- losowe z przedziału (0,1)
 
-      15) [ ] Uczenie perceptronu
+      17) [ ] Uczenie perceptronu
 	  - Stworzyć algorytm uczenia perceptrony
 		 Czyli modyfikacji wag (w) aby zwracało co chcemy
 	  - Problem:
@@ -244,6 +262,7 @@
 	   * int a = (int)'a';
 	   * char b = (char)98;
 	   * przyda sie reszta z dzielenia (mod) %
+	   * (char)((((int)litera-97)+n)%25)+97; 
 
       9) [ ] Uwaga skacze!
 	 - Zasymuluj układ spadku swobodnego.
