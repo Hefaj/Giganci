@@ -1,5 +1,5 @@
 * TODO Zadanka[1/4]
-   1. [ ] Konsola [0/1]
+   1. [-] Konsola [3/15]
       1) [ ] Tabliczka mnożenia
 	 - Wyświetlić tabliczke mnożenia za pomocą for, while oraz do While
 	 - Problem:
@@ -10,14 +10,14 @@
 	   * while (warunek) ()
 	   * do {} while (warunek);
 
-      1) [X] Silnia
+      2) [X] Silnia
 	 - Obliczyć silnie z liczny n.
 	 - Problem:
 	   * Jak się liczy silnie?
 	 - Podpowiedz:
 	   * !n = 1 * 2 * .. * n
 
-      2) [X] Lotto
+      3) [X] Lotto
 	 - Generowanie 6-ciu liczb z zakresu 1-49 bez powtórzeń.
 	 - Problem:
 	   * Jak losować bez powtórzeń?
@@ -27,7 +27,7 @@
 	   * int tablica = new int[49];
 	   * optymalne rozwiązanie
    
-      3) [ ] Liczba Eulera
+      4) [ ] Liczba Eulera
 	 - Napisać program liczący przybliżenie liczby Eulera
 	 - Problem:
 	   * Co to jest liczba Eulera, jak ją liczyć?
@@ -39,7 +39,7 @@
 	   * for(i=0;i<n;i++)
 	       s+=1f/silnia(n)
 
-      4) [ ] Liczby pierwsze
+      5) [ ] Liczby pierwsze
 	 - Wyświetlić wszystkie liczby pierwsze z przedziału od 2 do n.
 	 - Problem:
 	   * Co to jest liczba pierwsza?
@@ -47,7 +47,7 @@
 	 - Podpowiedz:
 	   * Znając liczbę pierwszą można wykluczyć jej wielokrotności.
 
-      5) [ ] Rozpisanie liczby
+      6) [ ] Rozpisanie liczby
 	 - Podając liczbę, ma zostać ona wyświetlona w postaci sumy liczb.
 	   1234 = 1000 + 200 + 30 + 4
 	 - Problem:
@@ -59,7 +59,7 @@
 	   * stringi można sklejać za pomocą znaku "+"
 	     "ala" + "ma" + "kota" => "alamakota"
 
-      6) [ ] Pochodna w punkcie
+      7) [ ] Pochodna w punkcie
 	 - Mając funkcje f(x) podać wartość pochodnej tej funkcji
                      w wyznaczonym punkcie.
 	 - Problem:
@@ -68,7 +68,7 @@
 	 - Podpowiedz:
 	   * Wyprowadzenie wzoru na pochodną ze wzoru Taylora
 
-      7) [X] Wyświetlanie choinki
+      8) [X] Wyświetlanie choinki
 	 - Za pomocą pętli wyświetlić trójkąt prostokątny z '*' 
                      dla danego n.
 	 - Problem:
@@ -79,25 +79,25 @@
 	     * ..
 	     * ...
 
-      8) [ ] Sortowanie tablicy liczb całkowitych
+      9) [ ] Sortowanie tablicy liczb całkowitych
 	 - Posortowanie rosnąco tablice liczb całkowitych.
 	 - Problem:
 	   * Jak wydajnie poukładać cyfry na swoich miejscach
 	 - Podpowiedz:
 	   * Array.Sort(array);
 
-      9) [ ] Liczba doskonała
-	 - Sprawdzić czy podana liczba jest liczbą doskonałą.
-	 - Problem:
-	   * Co to jest liczba doskonała?
-	   * Jak sprawdzić czy podana liczba jest liczbą doskonałą?
-	 - Podpowiedz:
-	   * dzielniki liczby 6 to 1, 2 i 3 czyli 1+2+3 = 6, 
-             liczba 6 jest liczbą doskonałą (28, 496 tez)
-	   * każda liczba dzieli się przez 1
-	   * znajdź wszystkie dzielniki podanej liczby i zapisuj je do tablicy
+      10) [ ] Liczba doskonała
+	  - Sprawdzić czy podana liczba jest liczbą doskonałą.
+	  - Problem:
+	    * Co to jest liczba doskonała?
+	    * Jak sprawdzić czy podana liczba jest liczbą doskonałą?
+	  - Podpowiedz:
+	    * dzielniki liczby 6 to 1, 2 i 3 czyli 1+2+3 = 6, 
+              liczba 6 jest liczbą doskonałą (28, 496 tez)
+	    * każda liczba dzieli się przez 1
+	    * znajdź wszystkie dzielniki podanej liczby i zapisuj je do tablicy
 
-      10) [ ] Złota liczba
+      11) [ ] Złota liczba
 	  - Podaj wartość złotej liczby.
 	  - Problem:
 	    * Co to jest złota liczba?
@@ -107,14 +107,14 @@
 		2+3
                3+5  
 
-      11) [ ] Miejsce zerowe funkcji
+      12) [ ] Miejsce zerowe funkcji
 	  - Mając funkcje f(x) chcemy znaleźć miejsce zerowe z przedziału <a,b>
 	  - Problem:
 	    * Jak?
 	  - Podpowiedz:
 	    * Metoda bisekcji
 
-      12) [ ] Całka Riemanna (oznaczona)
+      13) [ ] Całka Riemanna (oznaczona)
 	  - Mając f(x) policzyć całkę Riemanna na przedziale <a,b>.
 	  - Problem:
 	    * Na czym polega całkowanie?
@@ -123,7 +123,7 @@
 	      Pole trapezu => (a+b)*h/2
 	      Sprawdzić całkowanie dla f(x)=2x xe0..1
 
-      13) [ ] Perceptron
+      14) [ ] Perceptron
 	  - Stworzyć perceptron 2 wejścia 1 wyjście.
 	  - Problem:
 	    * Co to jest perceptron (neuron matematyczny).
@@ -142,7 +142,7 @@
 		  y = Q( T(x)*w )
 		  w <- losowe z przedziału (0,1)
 
-      14) [ ] Uczenie perceptronu
+      15) [ ] Uczenie perceptronu
 	  - Stworzyć algorytm uczenia perceptrony
 		 Czyli modyfikacji wag (w) aby zwracało co chcemy
 	  - Problem:
@@ -158,7 +158,7 @@
 	      Jeżeli nie to modyfikujemy wagi
 	      w1 += (y'-y)*
 	    
-   3. [-] WinForms [7/9]
+   2. [-] WinForms [7/9]
       1) [X] Napis 
 	 - Program który pozwala wybrać z listy wielkość napisu.
 	   I zmienia rozmiar napisu na jaki wybraliśmy.
@@ -255,7 +255,7 @@
 	   * button odpala timer timer1.start();
 	   * v = g * t/1000;
 	     
-   4. [ ] HARD MODE [0/3]
+   3. [ ] HARD MODE [0/3]
       1) [ ] Rozwiązywanie układu równań za pomocą eliminacji Gaussa
 	 - Posiadając n niewiadomych oraz n równań rozwiąż ukłąd równań.
 
@@ -286,7 +286,7 @@
            W chwili początkowej liczebności gatunków wynoszą 
            x0 = 60, y0 = 20. 
 	   
-   5. [X] Przemyślenia
+   4. [X] Przemyślenia
       - c      - system operacyjny, mikrokontrolery
       - c++    - silnik gry, mikrokontrolery, UNREAL ENGINE
       - c#     - $$$, UNITY
