@@ -10,15 +10,15 @@
 	   * while (warunek) ()
 	   * do {} while (warunek);        
 
-      2) [ ] Bip bip
-	 - Zrobić bip zapomocą pętli while
+      2) [ ] Ewo ewo
+	 - Zrobić ewooo zapomocą pętli while
 	 - Problem?
-	   * To co ma byc Bip bip?!
-	   * Jak się robi bip?
+	   * To co ma byc ewoo?!
+	   * Jak się robi ewoo?
 	 - Podpowiedz:
 	   * Console.Beep(czestotliwosc[Hz], czas[ms] );
-	   * czestotliwosc = <37-32767>, czas 100ms                   
-	     
+	   * czestotliwosc = <500-15000>                   
+
       3) [ ] Algorytm Euklidesa (NWD)
 	 - Policzyć najwiekszy wspólny dzielnik dwóch liczb
 	 - Problem:
@@ -175,18 +175,9 @@
 
 	      Jeżeli nie to modyfikujemy wagi
 	      w1 += (y'-y)*
-	      
-   2. [-] WinForms [7/10]
-      1) [ ] Muzyczko graj!
-	 - Zrobić 5 guzików, każdy z nich wywołuje inny dzwięk.
-	 - Problem:
-	   * Jak wywołać dzwięk?
-	 - Podpowiedz:
-	   * Console.Beep(c,t);
-	     c - czestotliwosc <37-32767>
-	     t - czas [ms]
-
-      2) [X] Napis 
+	    
+   2. [-] WinForms [7/9]
+      1) [X] Napis 
 	 - Program który pozwala wybrać z listy wielkość napisu.
 	   I zmienia rozmiar napisu na jaki wybraliśmy.
 	 - Problem:
@@ -197,7 +188,7 @@
 	   * ToolBox - > ComboBox
 	   * ComboBox -> events -> SelectedIndexChanged
 	     
-      3) [X] Pora roku
+      2) [X] Pora roku
 	 - Podajemy numer miesiąca a program mówi jak to pora roku.
 	   Grudzień (12) - Luty     (2)  - Zima
 	   Marzec   (3)  - Maj      (5)  - Wiosna
@@ -211,14 +202,14 @@
 	         MessageBox.Show();
 		 break;
 
-      4) [X] Liczba parzysta
+      3) [X] Liczba parzysta
 	 - Program sprawdzający czy wpisana liczba jest liczbą parzystką.
 	 - Problem:
 	   * Kiedy liczba jest parzysta?
 	 - Podpowiedz:
 	   * Liczba jest parzysta jeżeli reszta z dzielenia przez 2 jest równa 0.
 
-      5) [X] Uciekający textbox
+      4) [X] Uciekający textbox
 	 - Po najechaniu myszą textbox ucieka w inne 
            losowe miejsce w naszym oknie.
 	 - Problem:
@@ -231,14 +222,14 @@
 	     r.Next(a,b);
 	   * box.location = new Point(x,y);
 	  
-      6) [X] Dynamiczna zmiana koloru checkbox-a
+      5) [X] Dynamiczna zmiana koloru checkbox-a
 	 - Wpisując w textbox-a ma się znieniać kolor tła.
 	 - Problem:
 	   * Jak zmieniać kolor tła?
 	 - Podpowiedz:
 	   * this.BackColor = Color.FromArgb(r,g,b);
 
-      7) [ ] Oczopląs
+      6) [ ] Oczopląs
 	 - Migający form na losowe kolory
 	 - Problem:
 	   * W jaki sposób komputer "rozumie" kolory, jak się je przedstawia, [[https://pl.wikipedia.org/wiki/RGB][RGB]], [[https://pl.wikipedia.org/wiki/CMYK][CMYK]] i inne?
@@ -251,7 +242,7 @@
 	      gdzie r,g,b to liczby z przedziału od 0-255
 	   * Timer - element z toolboxa
 	     
-      8) [X] No weź idź sobie
+      7) [X] No weź idź sobie
 	 - Label z napisem "obowiązki" który idzie w twoja stronę
 	 - Problem:
 	   * Jak wykryć pozycję kursora?
@@ -261,7 +252,7 @@
              this.PointToClient(Cursor.Position).Y
 	   * ToolBox -> Timer
 
-      9) [X] Szyfr Cezara
+      8) [X] Szyfr Cezara
 	 - Podajemy wiadomość, liczbę przesunięć oraz 
            lewo/prawo a zwraca nam zaszyfrowaną wiadomość. 
 	 - Problem:
@@ -273,15 +264,15 @@
 	   * przyda sie reszta z dzielenia (mod) %
 	   * (char)((((int)litera-97)+n)%25)+97; 
 
-      10) [ ] Uwaga skacze!
-	  - Zasymuluj układ spadku swobodnego.
-	    Zrob button, usuń z niego napis i po kliknieciu button ma zacząć spacać spadkiem swodobnym.
-	  - Problem: 
-	    * Jak to jest że coś spada?
-	  - Podpowiedz:
-	    * v[prektosc] = g[grawitacja]*t[czas]
-	    * button odpala timer timer1.start();
-	    * v = g * t/1000;
+      9) [ ] Uwaga skacze!
+	 - Zasymuluj układ spadku swobodnego.
+	   Zrob button, usuń z niego napis i po kliknieciu button ma zacząć spacać spadkiem swodobnym.
+	 - Problem: 
+	   * Jak to jest że coś spada?
+	 - Podpowiedz:
+	   * v[prektosc] = g[grawitacja]*t[czas]
+	   * button odpala timer timer1.start();
+	   * v = g * t/1000;
 	     
    3. [ ] HARD MODE [0/3]
       1) [ ] Rozwiązywanie układu równań za pomocą eliminacji Gaussa
