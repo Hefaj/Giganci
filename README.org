@@ -1,12 +1,22 @@
 * TODO Zadanka[1/4]
-   1. [-] Konsola [3/14]
+   1. [ ] Konsola [0/1]
+      1) [ ] Tabliczka mnożenia
+	 - Wyświetlić tabliczke mnożenia za pomocą for, while oraz do While
+	 - Problem:
+	   * Po co tyle pętli?
+	   * Jak używać tych pętli?
+	 - Podpowiedz:
+	   * for(iterator; warunek; inkrementacja) {}
+	   * while (warunek) ()
+	   * do {} while (warunek);
+
       1) [X] Silnia
 	 - Obliczyć silnie z liczny n.
 	 - Problem:
 	   * Jak się liczy silnie?
 	 - Podpowiedz:
 	   * !n = 1 * 2 * .. * n
-	     
+
       2) [X] Lotto
 	 - Generowanie 6-ciu liczb z zakresu 1-49 bez powtórzeń.
 	 - Problem:
@@ -148,7 +158,7 @@
 	      Jeżeli nie to modyfikujemy wagi
 	      w1 += (y'-y)*
 	    
-   2. [-] WinForms [7/9]
+   3. [-] WinForms [7/9]
       1) [X] Napis 
 	 - Program który pozwala wybrać z listy wielkość napisu.
 	   I zmienia rozmiar napisu na jaki wybraliśmy.
@@ -245,7 +255,7 @@
 	   * button odpala timer timer1.start();
 	   * v = g * t/1000;
 	     
-   3. [ ] HARD MODE [0/3]
+   4. [ ] HARD MODE [0/3]
       1) [ ] Rozwiązywanie układu równań za pomocą eliminacji Gaussa
 	 - Posiadając n niewiadomych oraz n równań rozwiąż ukłąd równań.
 
@@ -276,7 +286,7 @@
            W chwili początkowej liczebności gatunków wynoszą 
            x0 = 60, y0 = 20. 
 	   
-   4. [X] Przemyślenia
+   5. [X] Przemyślenia
       - c      - system operacyjny, mikrokontrolery
       - c++    - silnik gry, mikrokontrolery, UNREAL ENGINE
       - c#     - $$$, UNITY
