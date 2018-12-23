@@ -1,14 +1,15 @@
 
 # Table of Contents
 
-1.  [Konsola](#org5749f00)
-2.  [WinForms](#org23faefc)
-3.  [Szlifowanie skila](#orgc3a2323)
-4.  [HARD MODE](#orgafea18d)
-5.  [Przemyślenia](#org79b2243)
+1.  [Konsola](#orgf4c345c)
+2.  [WinForms](#org9c3894b)
+3.  [Szlifowanie skila](#org763f607)
+4.  [HARD MODE](#orgcabd8cc)
+5.  [Konkretne zadania.](#orgae7ad06)
+6.  [Przemyślenia](#orgf189f74)
 
 
-<a id="org5749f00"></a>
+<a id="orgf4c345c"></a>
 
 # Konsola
 
@@ -145,7 +146,7 @@
                 Sprawdzić całkowanie dla f(x)=2x xe0..1
 
 
-<a id="org23faefc"></a>
+<a id="org9c3894b"></a>
 
 # WinForms
 
@@ -270,7 +271,7 @@
             -   v = g \* t/1000;
 
 
-<a id="orgc3a2323"></a>
+<a id="org763f607"></a>
 
 # Szlifowanie skila
 
@@ -297,7 +298,7 @@
             -   znajdź wszystkie dzielniki podanej liczby i zapisuj je do tablicy
 
 
-<a id="orgafea18d"></a>
+<a id="orgcabd8cc"></a>
 
 # HARD MODE
 
@@ -368,7 +369,14 @@
                 w1 += (y'-y)\*
 
 
-<a id="org79b2243"></a>
+<a id="orgae7ad06"></a>
+
+# Konkretne zadania.
+
+-   [Konkretne zadania, powodzenia.](https://github.com/Hefaj/Giganci/blob/master/img/more.png)
+
+
+<a id="orgf189f74"></a>
 
 # Przemyślenia
 

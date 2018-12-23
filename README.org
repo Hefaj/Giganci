@@ -345,7 +345,9 @@
 	   Jeżeli nie to modyfikujemy wagi
 	   w1 += (y'-y)*
      
-	  
+	   
+* Konkretne zadania.
+  + [[https://github.com/Hefaj/Giganci/blob/master/img/more.png][Konkretne zadania, powodzenia.]]
 * Przemyślenia
      - c      - system operacyjny, mikrokontrolery
      - c++    - silnik gry, mikrokontrolery, UNREAL ENGINE
