@@ -1,5 +1,5 @@
 * Konsola 
-  + Zadania [7/14]
+  + Zadania [8/14]
     1) [X] Tabliczka mnożenia
        - Wyświetlić tabliczke mnożenia za pomocą for, while oraz do While
        - Problem:
@@ -46,7 +46,7 @@
 	 * int tablica = new int[49];
 	 * optymalne rozwiązanie
 
-    6) [ ] Liczba Eulera
+    6) [X] Liczba Eulera
        - Napisać program liczący przybliżenie liczby Eulera
        - Problem:
 	 * Co to jest liczba Eulera, jak ją liczyć?
@@ -252,7 +252,7 @@
 	  * v[prektosc] = g[grawitacja]*t[czas]
 	  * button odpala timer timer1.start();
 	  * v = g * t/1000;
-
+	    
 	    
 * Szlifowanie skila
   + Zadania [0/3]

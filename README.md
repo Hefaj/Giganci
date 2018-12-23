@@ -1,18 +1,18 @@
 
 # Table of Contents
 
-1.  [Konsola](#org80685d5)
-2.  [WinForms](#org0e1f578)
-3.  [Szlifowanie skila](#org3c11aee)
-4.  [HARD MODE](#orgbd04b44)
-5.  [Przemyślenia](#orge38f53e)
+1.  [Konsola](#org5749f00)
+2.  [WinForms](#org23faefc)
+3.  [Szlifowanie skila](#orgc3a2323)
+4.  [HARD MODE](#orgafea18d)
+5.  [Przemyślenia](#org79b2243)
 
 
-<a id="org80685d5"></a>
+<a id="org5749f00"></a>
 
 # Konsola
 
--   Zadania <code>[7/14]</code>
+-   Zadania <code>[8/14]</code>
     1.  [X] Tabliczka mnożenia
         -   Wyświetlić tabliczke mnożenia za pomocą for, while oraz do While
         -   Problem:
@@ -59,7 +59,7 @@
             -   int tablica = new int[49];
             -   optymalne rozwiązanie
     
-    6.  [ ] Liczba Eulera
+    6.  [X] Liczba Eulera
         -   Napisać program liczący przybliżenie liczby Eulera
         -   Problem:
             -   Co to jest liczba Eulera, jak ją liczyć?
@@ -145,7 +145,7 @@
                 Sprawdzić całkowanie dla f(x)=2x xe0..1
 
 
-<a id="org0e1f578"></a>
+<a id="org23faefc"></a>
 
 # WinForms
 
@@ -270,7 +270,7 @@
             -   v = g \* t/1000;
 
 
-<a id="org3c11aee"></a>
+<a id="orgc3a2323"></a>
 
 # Szlifowanie skila
 
@@ -297,7 +297,7 @@
             -   znajdź wszystkie dzielniki podanej liczby i zapisuj je do tablicy
 
 
-<a id="orgbd04b44"></a>
+<a id="orgafea18d"></a>
 
 # HARD MODE
 
@@ -368,7 +368,7 @@
                 w1 += (y'-y)\*
 
 
-<a id="orge38f53e"></a>
+<a id="org79b2243"></a>
 
 # Przemyślenia
 
