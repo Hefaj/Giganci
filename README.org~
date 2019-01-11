@@ -1,12 +1,5 @@
 * Konsola 
   + Zadania [8/14]
-    1) [ ] Palindrom
-       - Sprawdzić czy podany napis jest palindromem.
-       - Problem:
-	 * Co to palindrom?
-       - Podpowiedz:
-	 * Słowo, które czyta się tak samo od przodu i od tyłu np. kajak. 
-
     1) [X] Tabliczka mnożenia
        - Wyświetlić tabliczke mnożenia za pomocą for, while oraz do While
        - Problem:
@@ -355,7 +348,6 @@
 	   
 * Konkretne zadania.
   + [[https://github.com/Hefaj/Giganci/blob/master/img/more.png][Konkretne zadania, powodzenia.]]
-    
 * Przemyślenia
      - c      - system operacyjny, mikrokontrolery
      - c++    - silnik gry, mikrokontrolery, UNREAL ENGINE

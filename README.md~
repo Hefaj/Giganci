@@ -1,27 +1,20 @@
 
 # Table of Contents
 
-1.  [Konsola](#org0000c34)
-2.  [WinForms](#org349102d)
-3.  [Szlifowanie skila](#org8d35dc7)
-4.  [HARD MODE](#org3643de1)
-5.  [Konkretne zadania.](#orgd6df5a1)
-6.  [Przemyślenia](#org3d15e65)
+1.  [Konsola](#orgf4c345c)
+2.  [WinForms](#org9c3894b)
+3.  [Szlifowanie skila](#org763f607)
+4.  [HARD MODE](#orgcabd8cc)
+5.  [Konkretne zadania.](#orgae7ad06)
+6.  [Przemyślenia](#orgf189f74)
 
 
-<a id="org0000c34"></a>
+<a id="orgf4c345c"></a>
 
 # Konsola
 
 -   Zadania <code>[8/14]</code>
-    1.  [ ] Palindrom
-        -   Sprawdzić czy podany napis jest palindromem.
-        -   Problem:
-            -   Co to palindrom?
-        -   Podpowiedz:
-            -   Słowo, które czyta się tak samo od przodu i od tyłu np. kajak.
-    
-    2.  [X] Tabliczka mnożenia
+    1.  [X] Tabliczka mnożenia
         -   Wyświetlić tabliczke mnożenia za pomocą for, while oraz do While
         -   Problem:
             -   Po co tyle pętli?
@@ -31,7 +24,7 @@
             -   while (warunek) {}
             -   do {} while (warunek);
     
-    3.  [X] Bip bip
+    2.  [X] Bip bip
         -   Zrobić bip za pomocą pętli while
         -   Problem?
             -   To co ma byc Bip bip?!
@@ -40,7 +33,7 @@
             -   Console.Beep(czestotliwosc[Hz], czas[ms] );
             -   czestotliwosc = <37-32767>, czas 100ms
     
-    4.  [X] Algorytm Euklidesa (NWD)
+    3.  [X] Algorytm Euklidesa (NWD)
         -   Policzyć najwiekszy wspólny dzielnik dwóch liczb
         -   Problem:
             -   Jak wygląda algorytm NWD?
@@ -50,14 +43,14 @@
             3.  jeżeli wartość b wynosi 0, to a jest szukaną wartością NWD, 
                 w przeciwnym wypadku przejdź do kroku 1
     
-    5.  [X] Silnia
+    4.  [X] Silnia
         -   Obliczyć silnie z liczny n.
         -   Problem:
             -   Jak się liczy silnie?
         -   Podpowiedz:
             -   !n = 1 \* 2 \* .. \* n
     
-    6.  [X] Lotto
+    5.  [X] Lotto
         -   Generowanie 6-ciu liczb z zakresu 1-49 bez powtórzeń.
         -   Problem:
             -   Jak losować bez powtórzeń?
@@ -67,7 +60,7 @@
             -   int tablica = new int[49];
             -   optymalne rozwiązanie
     
-    7.  [X] Liczba Eulera
+    6.  [X] Liczba Eulera
         -   Napisać program liczący przybliżenie liczby Eulera
         -   Problem:
             -   Co to jest liczba Eulera, jak ją liczyć?
@@ -79,7 +72,7 @@
             -   for(i=0;i<n;i++)
                 s+=1f/silnia(n)
     
-    8.  [ ] Liczby pierwsze
+    7.  [ ] Liczby pierwsze
         -   Wyświetlić wszystkie liczby pierwsze z przedziału od 2 do n.
         -   Problem:
             -   Co to jest liczba pierwsza?
@@ -87,7 +80,7 @@
         -   Podpowiedz:
             -   Znając liczbę pierwszą można wykluczyć jej wielokrotności.
     
-    9.  [X] Rozpisanie liczby
+    8.  [X] Rozpisanie liczby
         -   Podając liczbę, ma zostać ona wyświetlona w postaci sumy liczb.
             1234 = 1000 + 200 + 30 + 4
         -   Problem:
@@ -99,7 +92,7 @@
             -   stringi można sklejać za pomocą znaku "+"
                 "ala" + "ma" + "kota" => "alamakota"
     
-    10. [ ] Pochodna w punkcie
+    9.  [ ] Pochodna w punkcie
         -   Mając funkcje f(x) podać wartość pochodnej tej funkcji
             w wyznaczonym punkcie.
         -   Problem:
@@ -108,7 +101,7 @@
         -   Podpowiedz:
             -   Wyprowadzenie wzoru na pochodną ze wzoru Taylora
     
-    11. [X] Wyświetlanie choinki
+    10. [X] Wyświetlanie choinki
         -   Za pomocą pętli wyświetlić trójkąt prostokątny z '\*' 
             dla danego n.
         -   Problem:
@@ -119,14 +112,14 @@
                 -   ..
                 -   &#x2026;
     
-    12. [ ] Sortowanie tablicy liczb całkowitych
+    11. [ ] Sortowanie tablicy liczb całkowitych
         -   Posortowanie rosnąco tablice liczb całkowitych.
         -   Problem:
             -   Jak wydajnie poukładać cyfry na swoich miejscach
         -   Podpowiedz:
             -   Array.Sort(array);
     
-    13. [ ] Złota liczba
+    12. [ ] Złota liczba
         -   Podaj wartość złotej liczby.
         -   Problem:
             -   Co to jest złota liczba?
@@ -136,14 +129,14 @@
              2+3
             3+5
     
-    14. [ ] Miejsce zerowe funkcji
+    13. [ ] Miejsce zerowe funkcji
         -   Mając funkcje f(x) chcemy znaleźć miejsce zerowe z przedziału <a,b>
         -   Problem:
             -   Jak?
         -   Podpowiedz:
             -   Metoda bisekcji
     
-    15. [ ] Całka Riemanna (oznaczona)
+    14. [ ] Całka Riemanna (oznaczona)
         -   Mając f(x) policzyć całkę Riemanna na przedziale <a,b>.
         -   Problem:
             -   Na czym polega całkowanie?
@@ -153,7 +146,7 @@
                 Sprawdzić całkowanie dla f(x)=2x xe0..1
 
 
-<a id="org349102d"></a>
+<a id="org9c3894b"></a>
 
 # WinForms
 
@@ -278,7 +271,7 @@
             -   v = g \* t/1000;
 
 
-<a id="org8d35dc7"></a>
+<a id="org763f607"></a>
 
 # Szlifowanie skila
 
@@ -305,7 +298,7 @@
             -   znajdź wszystkie dzielniki podanej liczby i zapisuj je do tablicy
 
 
-<a id="org3643de1"></a>
+<a id="orgcabd8cc"></a>
 
 # HARD MODE
 
@@ -376,14 +369,14 @@
                 w1 += (y'-y)\*
 
 
-<a id="orgd6df5a1"></a>
+<a id="orgae7ad06"></a>
 
 # Konkretne zadania.
 
 -   [Konkretne zadania, powodzenia.](https://github.com/Hefaj/Giganci/blob/master/img/more.png)
 
 
-<a id="org3d15e65"></a>
+<a id="orgf189f74"></a>
 
 # Przemyślenia
 
