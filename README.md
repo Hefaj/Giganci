@@ -6,7 +6,6 @@
 3.  [Szlifowanie skila](#org8d35dc7)
 4.  [HARD MODE](#org3643de1)
 5.  [Konkretne zadania.](#orgd6df5a1)
-6.  [Przemyślenia](#org3d15e65)
 
 
 <a id="org0000c34"></a>
@@ -382,19 +381,4 @@
 
 -   [Konkretne zadania, powodzenia.](https://github.com/Hefaj/Giganci/blob/master/img/more.png)
 
-
-<a id="org3d15e65"></a>
-
-# Przemyślenia
-
--   c      - system operacyjny, mikrokontrolery
--   c++    - silnik gry, mikrokontrolery, UNREAL ENGINE
--   c#     - $$$, UNITY
--   java   - aplikacje mobline, podobnie zastosowanie co w c#
--   Python - obliczenia fizyczne, matematyczne, AI
--   R      - statystyka
--   PHP    - webowe klient - serwer
--   JS     - webowe klient, UNITY
--   Oczwiście w JS czy w R też można robic AI, chodzi mi o to
-    że częsciej używa się w tym Python albo c++.
 
